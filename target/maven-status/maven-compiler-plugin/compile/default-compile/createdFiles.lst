@@ -1,0 +1,11 @@
+pages\BasePage.class
+components\TopMenu.class
+pages\RegisterAccountPage.class
+pages\LoginPage.class
+utils\FakeDataGenerator.class
+components\Footer.class
+pages\DiscountProductPage.class
+pages\MainPageAfterSignInOrRegister.class
+components\Product.class
+pages\AllProductsPage.class
+pages\MainPage.class

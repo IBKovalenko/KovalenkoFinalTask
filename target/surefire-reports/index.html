@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-all_tests">
+              <span class="suite-name border-skipped">all tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-all_tests">
+                    <span>D:\KovalenkoFinalTask\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-all_tests">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-all_tests">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-all_tests">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-all_tests">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-all_tests">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-all_tests">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,  8 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-all_tests" class="hide-methods skipped suite-all_tests"> (hide)</a> <!-- hide-methods skipped suite-all_tests -->
+                      <a href="#" panel-name="suite-all_tests" class="show-methods skipped suite-all_tests"> (show)</a> <!-- show-methods skipped suite-all_tests -->
+                    </span>
+                    <div class="method-list-content skipped suite-all_tests">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-all_tests" title="tests.CheckSubmenuElementsFromMenuLinksTest" hash-for-method="checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu">checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-all_tests" title="tests.CheckTextOnTheMainPageTest" hash-for-method="checkOfInscriptionsOnTheMainPage">checkOfInscriptionsOnTheMainPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-all_tests" title="tests.CheckPopularProductsTest" hash-for-method="checkThatEveryProductHasNameAndPriceBiggerThanZero">checkThatEveryProductHasNameAndPriceBiggerThanZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-all_tests" title="tests.PriceDropCheckTest" hash-for-method="checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect">checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-all_tests" title="tests.AccountCreateTest" hash-for-method="checkThatNewAccountIsCreated">checkThatNewAccountIsCreated</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-all_tests" title="tests.SortingCheckTest" hash-for-method="checkTheCorrectSortByNameAndByPriceTest">checkTheCorrectSortByNameAndByPriceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-all_tests" title="tests.CheckTheNumberOfLanguagesTest" hash-for-method="checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage">checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-all_tests" title="tests.RegistrationWithInvalidDataTest" hash-for-method="registrationWithInvalidFirstName">registrationWithInvalidFirstName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-all_tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-all_tests" class="panel all_tests">
+          <div class="suite-all_tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.CheckSubmenuElementsFromMenuLinksTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu">
+                  </a> <!-- checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu -->
+                  <span class="method-name">checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Wrong browser
+	at tests.BaseTest.setUp(BaseTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-all_tests-class-skipped -->
+          <div class="suite-all_tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.CheckPopularProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkThatEveryProductHasNameAndPriceBiggerThanZero">
+                  </a> <!-- checkThatEveryProductHasNameAndPriceBiggerThanZero -->
+                  <span class="method-name">checkThatEveryProductHasNameAndPriceBiggerThanZero</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Wrong browser
+	at tests.BaseTest.setUp(BaseTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-all_tests-class-skipped -->
+          <div class="suite-all_tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.SortingCheckTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheCorrectSortByNameAndByPriceTest">
+                  </a> <!-- checkTheCorrectSortByNameAndByPriceTest -->
+                  <span class="method-name">checkTheCorrectSortByNameAndByPriceTest</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Wrong browser
+	at tests.BaseTest.setUp(BaseTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-all_tests-class-skipped -->
+          <div class="suite-all_tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.RegistrationWithInvalidDataTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationWithInvalidFirstName">
+                  </a> <!-- registrationWithInvalidFirstName -->
+                  <span class="method-name">registrationWithInvalidFirstName</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Wrong browser
+	at tests.BaseTest.setUp(BaseTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-all_tests-class-skipped -->
+          <div class="suite-all_tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.CheckTextOnTheMainPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOfInscriptionsOnTheMainPage">
+                  </a> <!-- checkOfInscriptionsOnTheMainPage -->
+                  <span class="method-name">checkOfInscriptionsOnTheMainPage</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Wrong browser
+	at tests.BaseTest.setUp(BaseTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-all_tests-class-skipped -->
+          <div class="suite-all_tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.PriceDropCheckTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect">
+                  </a> <!-- checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect -->
+                  <span class="method-name">checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Wrong browser
+	at tests.BaseTest.setUp(BaseTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-all_tests-class-skipped -->
+          <div class="suite-all_tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.CheckTheNumberOfLanguagesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage">
+                  </a> <!-- checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage -->
+                  <span class="method-name">checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Wrong browser
+	at tests.BaseTest.setUp(BaseTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-all_tests-class-skipped -->
+          <div class="suite-all_tests-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.AccountCreateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkThatNewAccountIsCreated">
+                  </a> <!-- checkThatNewAccountIsCreated -->
+                  <span class="method-name">checkThatNewAccountIsCreated</span>
+                  <div class="stack-trace">java.lang.IllegalStateException: Wrong browser
+	at tests.BaseTest.setUp(BaseTest.java:41)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-all_tests-class-skipped -->
+        </div> <!-- panel all_tests -->
+        <div panel-name="test-xml-all_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\KovalenkoFinalTask\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;all tests&quot; parallel=&quot;methods&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Check actions on main page tests&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckTextOnTheMainPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckTheNumberOfLanguagesTest&quot;/&gt;
+      &lt;class name=&quot;tests.CheckSubmenuElementsFromMenuLinksTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Check actions on main page tests --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Account create tests&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AccountCreateTest&quot;/&gt;
+      &lt;class name=&quot;tests.RegistrationWithInvalidDataTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Account create tests --&gt;
+  &lt;test thread-count=&quot;2&quot; verbose=&quot;0&quot; name=&quot;Products check tests&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.CheckPopularProductsTest&quot;/&gt;
+      &lt;class name=&quot;tests.PriceDropCheckTest&quot;/&gt;
+      &lt;class name=&quot;tests.SortingCheckTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Products check tests --&gt;
+&lt;/suite&gt; &lt;!-- all tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-all_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for all tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Check actions on main page tests (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Account create tests (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Products check tests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-all_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for all tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-all_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for all tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_all_tests');
+function tableData_all_tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage')
+data.setCell(0, 2, 'tests.CheckTheNumberOfLanguagesTest')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu')
+data.setCell(1, 2, 'tests.CheckSubmenuElementsFromMenuLinksTest')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkOfInscriptionsOnTheMainPage')
+data.setCell(2, 2, 'tests.CheckTextOnTheMainPageTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'registrationWithInvalidFirstName')
+data.setCell(3, 2, 'tests.RegistrationWithInvalidDataTest')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkThatNewAccountIsCreated')
+data.setCell(4, 2, 'tests.AccountCreateTest')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkTheCorrectSortByNameAndByPriceTest')
+data.setCell(5, 2, 'tests.SortingCheckTest')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect')
+data.setCell(6, 2, 'tests.PriceDropCheckTest')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkThatEveryProductHasNameAndPriceBiggerThanZero')
+data.setCell(7, 2, 'tests.CheckPopularProductsTest')
+data.setCell(7, 3, 0);
+window.suiteTableData['all_tests']= { tableData: data, tableDiv: 'times-div-all_tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-all_tests">
+              </div> <!-- times-div-all_tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-all_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for all tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-all_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-all_tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckTextOnTheMainPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckTheNumberOfLanguagesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">28 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage</span>
+                <span class="method-start">644 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckTextOnTheMainPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkOfInscriptionsOnTheMainPage</span>
+                <span class="method-start">651 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckTheNumberOfLanguagesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">674 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckSubmenuElementsFromMenuLinksTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">677 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckTextOnTheMainPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">685 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckSubmenuElementsFromMenuLinksTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu</span>
+                <span class="method-start">696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">707 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AccountCreateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">806 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegistrationWithInvalidDataTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">812 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">registrationWithInvalidFirstName</span>
+                <span class="method-start">825 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AccountCreateTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkThatNewAccountIsCreated</span>
+                <span class="method-start">838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">850 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegistrationWithInvalidDataTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">855 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckPopularProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">880 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PriceDropCheckTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">887 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect</span>
+                <span class="method-start">899 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CheckPopularProductsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkThatEveryProductHasNameAndPriceBiggerThanZero</span>
+                <span class="method-start">906 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">918 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SortingCheckTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">920 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PriceDropCheckTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">928 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SortingCheckTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkTheCorrectSortByNameAndByPriceTest</span>
+                <span class="method-start">934 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">quit</span>
+                <span class="method-start">948 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 8, Errors: 0, Skipped: 16, Time elapsed: 5.09 s <<< FAILURE! - in TestSuite
+tests.CheckTextOnTheMainPageTest.setUp  Time elapsed: 4.018 s  <<< FAILURE!
+java.lang.IllegalStateException: Wrong browser
+
+tests.CheckTheNumberOfLanguagesTest.setUp  Time elapsed: 4.026 s  <<< FAILURE!
+java.lang.IllegalStateException: Wrong browser
+
+tests.CheckSubmenuElementsFromMenuLinksTest.setUp  Time elapsed: 0.03 s  <<< FAILURE!
+java.lang.IllegalStateException: Wrong browser
+
+tests.RegistrationWithInvalidDataTest.setUp  Time elapsed: 0.124 s  <<< FAILURE!
+java.lang.IllegalStateException: Wrong browser
+
+tests.AccountCreateTest.setUp  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.IllegalStateException: Wrong browser
+
+tests.PriceDropCheckTest.setUp  Time elapsed: 0.057 s  <<< FAILURE!
+java.lang.IllegalStateException: Wrong browser
+
+tests.CheckPopularProductsTest.setUp  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.IllegalStateException: Wrong browser
+
+tests.SortingCheckTest.setUp  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.IllegalStateException: Wrong browser
+

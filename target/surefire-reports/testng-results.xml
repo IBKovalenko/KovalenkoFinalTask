@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="8" failed="0" ignored="0" total="8" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="all tests" duration-ms="1039" started-at="2021-10-06T08:51:32 EEST" finished-at="2021-10-06T08:51:33 EEST">
+    <groups>
+    </groups>
+    <test name="Check actions on main page tests" duration-ms="799" started-at="2021-10-06T08:51:32 EEST" finished-at="2021-10-06T08:51:33 EEST">
+      <class name="tests.CheckSubmenuElementsFromMenuLinksTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.CheckSubmenuElementsFromMenuLinksTest@226f885f]" name="setUp" is-config="true" duration-ms="2" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu()[pri:0, instance:tests.CheckSubmenuElementsFromMenuLinksTest@226f885f]" name="checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.CheckSubmenuElementsFromMenuLinksTest@226f885f]" name="quit" is-config="true" duration-ms="-1633499493634" started-at="2021-10-06T08:51:33 EEST" finished-at="1970-01-01T02:00:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.CheckSubmenuElementsFromMenuLinksTest -->
+      <class name="tests.CheckTheNumberOfLanguagesTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.CheckTheNumberOfLanguagesTest@21ca139c]" name="setUp" is-config="true" duration-ms="46" started-at="2021-10-06T08:51:32 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage()[pri:0, instance:tests.CheckTheNumberOfLanguagesTest@21ca139c]" name="checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.CheckTheNumberOfLanguagesTest@21ca139c]" name="quit" is-config="true" duration-ms="-1633499493601" started-at="2021-10-06T08:51:33 EEST" finished-at="1970-01-01T02:00:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.CheckTheNumberOfLanguagesTest -->
+      <class name="tests.CheckTextOnTheMainPageTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.CheckTextOnTheMainPageTest@655a5d9c]" name="setUp" is-config="true" duration-ms="56" started-at="2021-10-06T08:51:32 EEST" finished-at="2021-10-06T08:51:32 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="checkOfInscriptionsOnTheMainPage()[pri:0, instance:tests.CheckTextOnTheMainPageTest@655a5d9c]" name="checkOfInscriptionsOnTheMainPage" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOfInscriptionsOnTheMainPage -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.CheckTextOnTheMainPageTest@655a5d9c]" name="quit" is-config="true" duration-ms="-1633499493612" started-at="2021-10-06T08:51:33 EEST" finished-at="1970-01-01T02:00:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.CheckTextOnTheMainPageTest -->
+    </test> <!-- Check actions on main page tests -->
+    <test name="Account create tests" duration-ms="55" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+      <class name="tests.AccountCreateTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.AccountCreateTest@5489c777]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="checkThatNewAccountIsCreated()[pri:0, instance:tests.AccountCreateTest@5489c777]" name="checkThatNewAccountIsCreated" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatNewAccountIsCreated -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.AccountCreateTest@5489c777]" name="quit" is-config="true" duration-ms="-1633499493777" started-at="2021-10-06T08:51:33 EEST" finished-at="1970-01-01T02:00:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.AccountCreateTest -->
+      <class name="tests.RegistrationWithInvalidDataTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.RegistrationWithInvalidDataTest@3676ac27]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="registrationWithInvalidFirstName()[pri:0, instance:tests.RegistrationWithInvalidDataTest@3676ac27]" name="registrationWithInvalidFirstName" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationWithInvalidFirstName -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.RegistrationWithInvalidDataTest@3676ac27]" name="quit" is-config="true" duration-ms="-1633499493782" started-at="2021-10-06T08:51:33 EEST" finished-at="1970-01-01T02:00:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.RegistrationWithInvalidDataTest -->
+    </test> <!-- Account create tests -->
+    <test name="Products check tests" duration-ms="74" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+      <class name="tests.PriceDropCheckTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.PriceDropCheckTest@2b5cb9b2]" name="setUp" is-config="true" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect()[pri:0, instance:tests.PriceDropCheckTest@2b5cb9b2]" name="checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.PriceDropCheckTest@2b5cb9b2]" name="quit" is-config="true" duration-ms="-1633499493855" started-at="2021-10-06T08:51:33 EEST" finished-at="1970-01-01T02:00:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.PriceDropCheckTest -->
+      <class name="tests.SortingCheckTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.SortingCheckTest@ecf9049]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="checkTheCorrectSortByNameAndByPriceTest()[pri:0, instance:tests.SortingCheckTest@ecf9049]" name="checkTheCorrectSortByNameAndByPriceTest" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTheCorrectSortByNameAndByPriceTest -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.SortingCheckTest@ecf9049]" name="quit" is-config="true" duration-ms="-1633499493875" started-at="2021-10-06T08:51:33 EEST" finished-at="1970-01-01T02:00:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.SortingCheckTest -->
+      <class name="tests.CheckPopularProductsTest">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:tests.CheckPopularProductsTest@5707c1cb]" name="setUp" is-config="true" duration-ms="1" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="checkThatEveryProductHasNameAndPriceBiggerThanZero()[pri:0, instance:tests.CheckPopularProductsTest@5707c1cb]" name="checkThatEveryProductHasNameAndPriceBiggerThanZero" duration-ms="0" started-at="2021-10-06T08:51:33 EEST" finished-at="2021-10-06T08:51:33 EEST">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[Wrong browser]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: Wrong browser
+at tests.BaseTest.setUp(BaseTest.java:41)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkThatEveryProductHasNameAndPriceBiggerThanZero -->
+        <test-method status="SKIP" signature="quit()[pri:0, instance:tests.CheckPopularProductsTest@5707c1cb]" name="quit" is-config="true" duration-ms="-1633499493845" started-at="2021-10-06T08:51:33 EEST" finished-at="1970-01-01T02:00:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.CheckPopularProductsTest -->
+    </test> <!-- Products check tests -->
+  </suite> <!-- all tests -->
+</testng-results>

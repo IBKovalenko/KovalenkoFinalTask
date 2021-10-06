@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [all tests]" parallel="methods">
+  <test thread-count="2" verbose="0" name="Check actions on main page tests(failed)" parallel="methods">
+    <classes>
+      <class name="tests.CheckSubmenuElementsFromMenuLinksTest">
+        <methods>
+          <include name="quit"/>
+          <include name="checkCorrectDisplayOfSubmenuItemsAfterHoveringOverTheCourseOnClothesAccessoriesAndArtMenu"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CheckSubmenuElementsFromMenuLinksTest -->
+      <class name="tests.CheckTextOnTheMainPageTest">
+        <methods>
+          <include name="checkOfInscriptionsOnTheMainPage"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CheckTextOnTheMainPageTest -->
+      <class name="tests.CheckTheNumberOfLanguagesTest">
+        <methods>
+          <include name="checkTheNumberOfLanguagesInSelectMenuAndExistUkraineLanguage"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CheckTheNumberOfLanguagesTest -->
+    </classes>
+  </test> <!-- Check actions on main page tests(failed) -->
+  <test thread-count="2" verbose="0" name="Account create tests(failed)" parallel="methods">
+    <classes>
+      <class name="tests.RegistrationWithInvalidDataTest">
+        <methods>
+          <include name="registrationWithInvalidFirstName"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.RegistrationWithInvalidDataTest -->
+      <class name="tests.AccountCreateTest">
+        <methods>
+          <include name="checkThatNewAccountIsCreated"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.AccountCreateTest -->
+    </classes>
+  </test> <!-- Account create tests(failed) -->
+  <test thread-count="2" verbose="0" name="Products check tests(failed)" parallel="methods">
+    <classes>
+      <class name="tests.SortingCheckTest">
+        <methods>
+          <include name="checkTheCorrectSortByNameAndByPriceTest"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.SortingCheckTest -->
+      <class name="tests.CheckPopularProductsTest">
+        <methods>
+          <include name="checkThatEveryProductHasNameAndPriceBiggerThanZero"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CheckPopularProductsTest -->
+      <class name="tests.PriceDropCheckTest">
+        <methods>
+          <include name="checkThatEveryProductHasOldAndNewPriceAndPromoPriceCalculatesCorrect"/>
+          <include name="quit"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.PriceDropCheckTest -->
+    </classes>
+  </test> <!-- Products check tests(failed) -->
+</suite> <!-- Failed suite [all tests] -->

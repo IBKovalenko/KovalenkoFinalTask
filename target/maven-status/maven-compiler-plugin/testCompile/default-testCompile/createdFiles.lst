@@ -1,0 +1,9 @@
+tests\CheckPopularProductsTest.class
+tests\SortingCheckTest.class
+tests\CheckTextOnTheMainPageTest.class
+tests\AccountCreateTest.class
+tests\BaseTest.class
+tests\CheckSubmenuElementsFromMenuLinksTest.class
+tests\CheckTheNumberOfLanguagesTest.class
+tests\RegistrationWithInvalidDataTest.class
+tests\PriceDropCheckTest.class
